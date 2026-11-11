@@ -21,7 +21,7 @@ Riêng `case2_right_of_way/` có thêm `single_agent_check.py` để kiểm tra 
 ## Cài đặt
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -32,8 +32,8 @@ Ví dụ với môi trường 1:
 
 ```bash
 cd case1_offset_gate
-python simulate.py
-python plot_results.py
+python3 simulate.py
+python3 plot_results.py
 ```
 
 Thực hiện tương tự cho `case2_right_of_way` và `case3_dynamic_feasibility`.
