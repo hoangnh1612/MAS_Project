@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+case1_offset_gate/results
+case2_right_of_way/results
+case3_dynamic_feasibility/results
